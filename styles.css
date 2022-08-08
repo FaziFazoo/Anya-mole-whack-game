@@ -1,6 +1,6 @@
 body{
     font-family:monospace;
-    background-image: url('image/i8TEAI.jpg');
+    background-image: url('image/1242791.png');
 }
 .grid{
     width:608px;
@@ -18,8 +18,9 @@ body{
     top:30px;
 }
 .header{
-    position: absolute;
+    position: fixed;
     left:40%;
+    
     
 }
 .scoreboard{
@@ -31,6 +32,7 @@ body{
     bottom:10px;
     position: relative;
     left:60%
+
 }
 .timer,.score{
     position: relative;
@@ -91,7 +93,7 @@ body{
         background-image: url('image/anya1.png');  
     }
   .btn{
-    position:relative;
+    position:absolute;
     left:120px;
 }
 }
